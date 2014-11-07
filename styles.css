@@ -1,0 +1,58 @@
+html {
+	color: white;
+}
+
+.background {
+	background: url('background_image2.png') no-repeat center center fixed;
+	background-color: black;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+.center {
+	vertical-align: center;
+	text-align: center;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#main-content {
+	width: 100%;
+}
+#main-content div {
+	vertical-align: center;
+	text-align: center;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#title {
+	font-size: 200;
+}
+
+#likes-to {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-size: 50;	
+}
+
+#likes {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-size: 150;
+}
+
+#blog {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-size: 50px;
+}
+
+#contact div{
+	margin: 15px;
+	display:inline;
+}
