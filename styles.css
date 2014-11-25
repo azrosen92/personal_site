@@ -2,7 +2,7 @@ html {
 	color: white;
 }
 
-.background {
+/*.background {
 	background: url('background_image2.png') no-repeat center center fixed;
 	background-color: black;
 	-webkit-background-size: cover;
@@ -55,4 +55,43 @@ html {
 #contact div{
 	margin: 15px;
 	display:inline;
+}*/
+
+.hsContainer {
+	display: table;
+	table-layout: fixed;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+	opacity: 0;
+}
+
+.hsContent {
+	max-width: 450px;
+	margin: -150px auto 0 auto;
+	display: table-call;
+	vertical-align: middle;
+	color: #ebebeb;
+	padding: 0 8%;
+	text-align: center;
+}
+
+.bcg {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+}
+
+#slide-1 .bcg {
+	background-image:url('background_image2.png');
+}
+
+#slide-2 .bcg {
+	background: none;
+	background-color: #010101;
+	height: 310px;
+	text-align: center;
 }
