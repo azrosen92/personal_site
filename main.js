@@ -1,8 +1,4 @@
-window.onload = function() {
+$(document).ready(function() {
 	console.log("hello");
-	var s = skrollr.init({
-		render: function(data) {
-			console.log(data.curTop);
-		}
-	});
-}
+});
+	

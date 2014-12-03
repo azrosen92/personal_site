@@ -16,7 +16,7 @@ section {
 }
 
 .background {
-	background: url('images/background_image.png') no-repeat center center fixed;
+	background: url('background_image.png') no-repeat center center fixed;
 	background-color: black;
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
@@ -60,15 +60,15 @@ section {
 }
 
 #code {
-	background-image: url('./images/code.svg');
+	background-image: url('code.svg');
 }
 
 #cook {
-	background-image: url('images/cook.svg');
+	background-image: url('cook.svg');
 }
 
 #travel {
-	background-image: url('images/travel.svg');
+	background-image: url('travel.svg');
 }
 
 .icon {
