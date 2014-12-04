@@ -5,23 +5,32 @@
 		<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
 	</head>
 	<body>
-		<section id="main-content" class="background scrollsections">
-			<div id="container">
+		<div id="main-content" class="background">
+			<div id="container"
+					data-start="height:100%;"
+					data-end="height:0%;">
 				<div id="title"
-						data-bottom="top:0%;">
+						data-0="top:40vh;"
+						data-500="top:0vh;">
 					Aaron Rosen
 				</div>
-				<div id="about">
+				<div id="about"
+						data-start="top:50vh;"
+						data-300="top:0vh;">
 					<div id="code" class="icon"></div>
 					<div id="cook" class="icon"></div>
 					<div id="travel" class="icon"></div>
 				</div>
 				<div id="icons-license">Icons made by Freepik from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a>         is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a></div>
 			</div>
-		</section>
+		</div>
 
-		<script src="resources/js/jquery-1.11.1.min.js"></script>
-		<script src="resources/js/skrollr.min.js"></script>
-		<script src="resources/js/main.js"></script>
+
+		<script type="text/javascript"src="resources/js/jquery-1.11.1.min.js"></script>
+		<script type="text/javascript" src="resources/js/skrollr.min.js"></script>
+		<script type="text/javascript" src="resources/js/main.js"></script>
+		<script type="text/javascript">
+			var s = skrollr.init();
+		</script>
 	</body>
 </html>
