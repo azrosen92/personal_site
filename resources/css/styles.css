@@ -59,24 +59,18 @@ section {
 	top: 40%;
 }
 
-#code {
-	background-image: url('code.svg');
-}
-
-#cook {
-	background-image: url('cook.svg');
-}
-
-#travel {
-	background-image: url('travel.svg');
-}
-
 .icon {
 	margin: 0 5%;
-	width: 34px;
-	height: 34px;
+	width: 48px;
+	height: 48px;
 	background-size: cover;
 	display: inline-block;
+}
+
+.svg-icon:hover {
+	stroke: #CCCCCC;
+	fill: #CCCCCC;
+	cursor: pointer;
 }
 
 #icons-license {
