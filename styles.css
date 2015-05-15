@@ -31,7 +31,7 @@ section {
 	margin-right: auto;
 }
 
-#main-content {
+#initial-content {
 	background-color: black;
 	background-image: url('images/background_image.png') no-repeat center center fixed;
 	width: 100%;
@@ -53,53 +53,30 @@ section {
 	text-align: center;
 }
 
-#about {
+#code-content {
+	background-color: #a2f0a4;
+}
+
+.content {
+	height: 600px;
+}
+
+footer {
+	font-size: 24pt;
+	color: #dc8c52;
 	text-align: center;
-	margin: auto;
-	position: relative;
-	top: 40%;
-}
-
-#code {
-	background-image: url('./images/code.svg');
-}
-
-#cook {
-	background-image: url('images/cook.svg');
-}
-
-#travel {
-	background-image: url('images/travel.svg');
-}
-
-.icon {
-	margin: 0 5%;
-	width: 34px;
-	height: 34px;
-	background-size: cover;
-	display: inline-block;
-}
-
-#icons-license {
-	position: absolute;
-	bottom: 0px;
 	width: 100%;
-	margin-left: 10px;
-	margin-bottom: 5px;
-}
-#icons-license a {
-	color: white;
-	text-decoration: none;
+	margin: auto;
 }
 
-#icons-license a:hover {
-	text-decoration: underline;
+.top-bar {
+	width: 100%;
+	height: auto;
+
+	background-color: rgba(66,66,99,0.7);
 }
 
-#second-content {
-	background-color: rgb(66,66,99);
-	height: 900px;
+.top-bar li {
+	float: left;
 }
-
-
 
