@@ -22,6 +22,12 @@ section {
 	display: block;
 }
 
+/*#skrollr-body {
+    float: left;
+    width: 100%;
+    height: 100%;
+}*/
+
 .background {
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
