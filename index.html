@@ -2,84 +2,125 @@
 	<head>
 		<title>Aaron Rosen's Website</title>
 		<link rel="icon" href="resources/images/favicon.ico">
-		<link rel="stylesheet" type="text/css" href="resources/css/styles.css">
+		<link href='http://fonts.googleapis.com/css?family=Quicksand:300' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="styles.css">
 		<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
+		<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
 		<script src="resources/js/jquery-1.11.1.min.js"></script>
+		<script src="resources/js/skrollr.min.js"></script>
 		<script src="resources/js/main.js"></script>
 	</head>
 	<body> 
 		<section id="initial-content" class="background">
-			<div id="container">
-				<div id="title">
-					Aaron Rosen
+			<div class="pure-g">
+				<div class="pure-u-1">
+					<div class="bubble" id="title-bubble">
+						<div class="text-wrap" id="title">
+							Aaron Rosen
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="pure-g" id="bubble-wrap">
+				<div class="pure-u-1 pure-u-sm-1-2 pure-u-md-1-4">
+					<div class="bubble">
+						<div class="text-wrap">Code</div>
+					</div>
+				</div>
+				<div class="pure-u-1 pure-u-sm-1-2 pure-u-md-1-4">
+					<div class="bubble">
+						<div class="text-wrap">Design</div>
+					</div>
+				</div>
+				<div class="pure-u-1 pure-u-sm-1-2 pure-u-md-1-4">
+					<div class="bubble">
+						<div class="text-wrap">Blog</div>
+					</div>
+				</div>
+				<div class="pure-u-1 pure-u-sm-1-2 pure-u-md-1-4">
+					<div class="bubble">
+						<div class="text-wrap">About</div>
+					</div>
 				</div>
 			</div>
 		</section>
 
-		<section id="code-content">
-			<div id="code-top-bar" class="top-bar">
-				<div class="pure-g">
-					<div class="pure-u-1-5 nav-menu-item">Code</div>
-					<div class="pure-u-1-5 nav-menu-item">Design</div>
-					<div class="pure-u-1-5 nav-menu-item">Cooking</div>
-					<div class="pure-u-1-5 nav-menu-item">Research</div>
-					<div class="pure-u-1-5 nav-menu-item">Blog</div>
+		<section id="extra-content" class="background">
+			<div id="extra-content-text">
+				<div class="line-container">
+					<span class="line-text"
+						data-top="left: 15%;"
+						data-bottom="left: 100%;"
+						data-anchor-target="#extra-content">
+						Hi, I'm Aaron and I'm a <b>problem solver</b>.
+					</span>
+				</div>
+				<div class="line-container">
+					<span class="line-text"
+						data-top="left: 25%;"
+						data-bottom="left: 100%;"
+						data-anchor-target="#extra-content">
+						I like to <b>build</b> things with code, then <b>write</b> about what I'm building.
+					</span>
+				</div>
+				<div class="line-container">
+					<span class="line-text"
+						data-top="left: 35%;"
+						data-bottom="left: 100%;"
+						data-anchor-target="#extra-content">
+						I also <b>enjoy cooking</b>	and I'm getting into <b>graphic design</b>.
+					</span>
+				</div>
+				<div class="line-container">
+					<span class="line-text"
+						data-top="left: 45%;"
+						data-bottom="left: 100%;"
+						data-anchor-target="#extra-content">
+						I freelance so <b>drop me a line</b> if you're looking for some help!
+					</span>
 				</div>
 			</div>
-			<div id="code-top-bar" class="top-bar">
-				
-			</div>
-			<div class="content">
-				<div class="pure-g">
-					<div class="pure-u-sm-1 pure-u-1-3 portfolio-space">
-						<div class="portfolio-item square">
+			<div class="pure-g" id="social-icons">
+				<div class="pure-u-1-5">
+					<a href="#">
+						<div class="svg-icon">
+							<img src="resources/images/svgs/twitter.svg"></img>
 						</div>
+					</a>
+				</div>
+				<div class="pure-u-1-5">
+					<a href="">
+						<div class="svg-icon">
+							<object type="image/svg+xml" data="resources/images/svgs/medium.svg"></object>
+						</div>
+					</a>
+				</div>
+				<div class="pure-u-1-5">
+					<a href="#">
+						<div class="svg-icon">
+							<object type="image/svg+xml" data="resources/images/svgs/linkedin.svg"></object>
+						</div>
+					</a>
+				</div>
+				<div class="pure-u-1-5">
+					<div class="svg-icon">
+						<object type="image/svg+xml" data="resources/images/svgs/github.svg"></object>
 					</div>
-					<div class="pure-u-sm-1 pure-u-1-3 portfolio-space">
-						<div class="portfolio-item square">
-						</div>
-					</div>
-					<div class="pure-u-sm-1 pure-u-1-3 portfolio-space">
-						<div class="portfolio-item square">
-						</div>
+				</div>
+				<div class="pure-u-1-5">
+					<div class="svg-icon">
+						<object type="image/svg+xml" data="resources/images/svgs/dribbble.svg"></object>
 					</div>
 				</div>
 			</div>
-			<footer id="github">
-				<span id="github-icon"></span><span>Check out my <a href="">Github</a></span>.
-			</footer>
 		</section>
 
-		<section id="design-content">
-			<div id="design-top-bar" class="top-bar">
-				<div class="pure-g">
-					<div class="pure-u-1-5 nav-menu-item">Code</div>
-					<div class="pure-u-1-5 nav-menu-item">Design</div>
-					<div class="pure-u-1-5 nav-menu-item">Cooking</div>
-					<div class="pure-u-1-5 nav-menu-item">Research</div>
-					<div class="pure-u-1-5 nav-menu-item">Blog</div>
-				</div>
-			</div> 
-
-			<div class="content">
-				<div class="pure-g">
-					<div class="pure-u-sm-1 pure-u-1-3 portfolio-space">
-						<div class="portfolio-item square">
-						</div>
-					</div>
-					<div class="pure-u-sm-1 pure-u-1-3 portfolio-space">
-						<div class="portfolio-item square">
-						</div>
-					</div>
-					<div class="pure-u-sm-1 pure-u-1-3 portfolio-space">
-						<div class="portfolio-item square">
-						</div>
-					</div>
-				</div>
-			</div>
-			<footer id="dribbble">
-				<span id="dribbble-icon"></span><span>Check out my <a href="">dribbble</a></span>.
-			</footer>
-		</section>
+		<script>
+			// Init Skrollr
+			var s = skrollr.init({
+				forceHeight: false
+			});
+		</script>
 	</body>
 </html>
