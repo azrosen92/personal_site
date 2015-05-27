@@ -11,7 +11,7 @@
 		<script src="resources/js/skrollr.min.js"></script>
 		<script src="resources/js/main.js"></script>
 	</head>
-	<body id="skrollr-body"> 
+	<body> 
 		<section id="initial-content" class="background">
 			<div class="pure-g">
 				<div class="pure-u-1">
@@ -118,9 +118,11 @@
 		</section>
 
 		<script>
-			if !(/Android|iPhone|iPad|iPod|BlackBerry/i).test(navigator.userAgent || navigator.vendor || window.opera) {
+			var s;
+			if (!(/Android|iPhone|iPad|iPod|BlackBerry/i).test(navigator.userAgent || navigator.vendor || window.opera)) {
 				// Init Skrollr
-				var s = skrollr.init({
+				console.log("not a mobile browser");
+				s = skrollr.init({
 					forceHeight: false
 				});
 			}
