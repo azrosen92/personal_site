@@ -78,6 +78,10 @@ section {
 	}
 }
 
+.bubble-link {
+	color: #fff;
+}
+
 #bubble-wrap {
 	padding: 40px 20px;
 }
@@ -128,6 +132,17 @@ section {
 	font-family: 'Quicksand';
 	position: absolute;
 	display: inline-block;
+}
+
+.text-link {
+	color: #fff;
+}
+.text-link:hover {
+	color: #B4B4B4;
+}
+
+#introduction {
+	font-size: 36pt;
 }
 
 #social-icons {
